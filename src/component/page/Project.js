@@ -16,7 +16,7 @@ function Project() {
   const [btnAble, setBtnAble] = useState(false);
   const [fade, setFade] = useState({ 0: 0, 1: 0, 2: 0, 3: 0, 4: 0 });
   const [imgCount, setImgCount] = useState({ 0: 0, 1: 0, 2: 0, 3: 0, 4: 0 });
-  const maxCount = { 0: 3, 1: 4, 2: 1, 3: 2, 4: 3 };
+  const maxCount = { 0: 3, 1: 4, 2: 1, 3: 3, 4: 3 };
   const projectArr = [
     { id: 0, img: `/img/mainpage.png`, count: imgCount[0], fadeState: fade[0] },
     {
@@ -42,7 +42,7 @@ function Project() {
       title: "Rate - Market",
       date: "09.01 ~ 09.13",
       ex: "구글의 firebase를 데이터베이스로 사용한 중고물품 거래 사이트입니다. 로그인기능과 글 작성 , 찜하기 , 판매자에게 메세지 보내기 등으로 제작했습니다.",
-      href: "",
+      href: "https://ratempty.github.io/market/",
     },
     {
       id: 2,
@@ -56,7 +56,7 @@ function Project() {
       title: "Todo-List",
       date: "08.07 ~ 08.19",
       ex: "리액트로 만든 투두리스트입니다. 카테고리 선택 등록 ,카테고리 별 보기 , 해야할 일의 완료 및 고정과 삭제 , 날짜선택 등의 기능을 구현했습니다.",
-      href: "",
+      href: "https://ratempty.github.io/todo/",
     },
     {
       id: 4,
