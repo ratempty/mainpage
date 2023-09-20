@@ -71,7 +71,7 @@ function Skill() {
     {
       id: 9,
       skill: "FIGMA",
-      icon: "/img/icons/iconFIgma",
+      icon: "/img/icons/iconFigma",
       text: "#UI디자인 #프로토타이핑 #디자인도구 #협업도구",
     },
     {
