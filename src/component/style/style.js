@@ -150,6 +150,7 @@ export const Main = styled.main`
     display: flex;
     flex-direction: column;
     width: 80%;
+    height: 100%;
     margin: auto;
     gap: 30px;
     padding-top: 50px;
@@ -169,7 +170,7 @@ export const Main = styled.main`
       font-family: "Public Sans", "LINESeedKR-Bd", sans-serif;
       font-size: 16px;
       width: 100%;
-      height: 300px;
+      height: 50%;
       border: 0 none;
       padding: 20px;
       box-sizing: border-box;
@@ -196,6 +197,9 @@ export const Main = styled.main`
   ul {
     height: 100%;
     overflow-y: scroll;
+    img {
+      box-shadow: 3px 3px 3px 0px #00000055;
+    }
   }
   ul::-webkit-scrollbar {
     display: none;
@@ -272,10 +276,12 @@ export const Explane = styled.div`
   padding-bottom: 0;
   font-family: "SUITE-Regular", "LINESeedKR-Bd", sans-serif;
   p {
-    margin-bottom: 70px;
     font-weight: 400;
     font-size: 1.4em;
     word-break: keep-all;
+  }
+  .myInfo p {
+    margin-bottom: 70px;
   }
   .makeDay {
     font-weight: 100;
@@ -324,5 +330,12 @@ export const Explane = styled.div`
       width: 150px;
       height: 150px;
     }
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    margin: 20px 0;
+    padding: 1em 0;
+    font-size: 20px;
   }
 `;

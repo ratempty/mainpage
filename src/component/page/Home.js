@@ -32,7 +32,7 @@ function Home() {
         </p>
       </Main>
       <Explane className="explane">
-        <div>
+        <div className="myInfo">
           <p>이름 : 강다빈</p>
           <p>주소 : 경기도 안산시</p>
           <p>생년월일 : 1997.01.12</p>

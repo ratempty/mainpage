@@ -62,8 +62,8 @@ function Project() {
       id: 4,
       title: "Asiana airline",
       date: "06.01 ~ 07.30",
-      ex: "코딩 시작 2개월차의 첫 프로젝트입니다. 아시아나 항공사의 메인페이지를 리뉴얼하며 반응형으로 제작했습니다. HTML , CSS , JAVASCRIPT 로만 이루어진 사이트로 swiper와 slick 등 라이브러리를 사용해서 배너의 움직임을 구현했습니다.",
-      href: "",
+      ex: "코딩 시작 2개월차의 첫 프로젝트입니다. 아시아나 항공사의 메인페이지를 반응형으로 리뉴얼했습니다. swiper,slick 등의 라이브러리를 사용했고, 풀페이지의 효과를 직접 구현했습니다 .",
+      href: "https://ratempty.github.io/asiana/",
     },
   ];
   const handleScroll = (e) => {
@@ -181,10 +181,10 @@ function Project() {
               <div>
                 <h4>{item.title}</h4>
                 <p className="makeDay">작업기간 : {item.date}</p>
-                <p className="textEx"> {item.ex}</p>
                 <a href={item.href} target="_blank">
                   프로젝트 자세히 보기
                 </a>
+                <p className="textEx"> {item.ex}</p>
               </div>
             </li>
           ))}
