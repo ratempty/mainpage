@@ -43,6 +43,7 @@ export const Gnb = styled.nav`
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    padding: 0 0 0 30px;
   }
   li {
     cursor: pointer;
@@ -76,7 +77,7 @@ export const Header = styled.div`
   h2 {
     font-size: 80px;
     height: 100%;
-    line-height: 100%;
+    line-height: 150%;
     width: 95%;
     border-bottom: 2px solid #94918f;
     margin: auto;
@@ -100,9 +101,12 @@ export const Article = styled.article`
       display: flex;
       flex-flow: column wrap;
       gap: 30px;
+      width: 170px;
     }
     .date span {
+      width: 100%;
       align-self: flex-end;
+      font-size: 20px;
     }
   }
   .weath {
@@ -272,7 +276,7 @@ export const Main = styled.main`
 
 export const Explane = styled.div`
   width: 80%;
-  padding: 100px 50px;
+  padding: 50px;
   padding-bottom: 0;
   font-family: "SUITE-Regular", "LINESeedKR-Bd", sans-serif;
   p {
@@ -286,13 +290,14 @@ export const Explane = styled.div`
   .makeDay {
     font-weight: 100;
     font-size: 16px;
+    margin-bottom: 30px;
   }
   .textEx {
     line-height: 2;
   }
   h4 {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-weight: 900;
     font-size: 40px;
   }
@@ -333,9 +338,12 @@ export const Explane = styled.div`
   }
   a {
     display: block;
+    width: 140px;
     text-decoration: none;
     margin: 20px 0;
     padding: 1em 0;
     font-size: 20px;
+    color: #e55604;
+    background: url("/img/href.png") no-repeat right center;
   }
 `;
