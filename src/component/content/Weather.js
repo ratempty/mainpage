@@ -22,8 +22,7 @@ function Weather() {
   const nowDay = moment(currentDate).format("YYYY 년 MM 월 DD 일");
   const nowTime = moment(currentDate).format("A hh : mm : ss");
 
-  const apikey =
-    "mjRsbDyMQDLwTp80DfddxsvMhCQycDNS1AIwNPt4TW42uu1iyQ7JbyGgFqgo42TjQf7PIUs2xUcrv85ATAr5Wg%3D%3D";
+  const apikey = process.env.apikey;
 
   const weatherLoad = () => {
     const setTime = new Date();
